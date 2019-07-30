@@ -1,6 +1,6 @@
 import React from 'react';
 import Logo from '../img/ac-geek-logo.png';
-import '../styless/index.css';
+import '../styles/index.css';
 
 const Header=()=>{
     return(

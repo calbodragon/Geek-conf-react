@@ -2,6 +2,8 @@ import React from 'react';
 import medellin1 from '../img/medellin1.png';
 import medellin2 from '../img/medellin2.png';
 import medellin3 from '../img/medellin3.png';
+import '../styles/index.css'
+
 const Main=()=>{
     return(
 <div>
@@ -28,7 +30,7 @@ const Main=()=>{
                                     técnicos adquiridos durante el curso.
                                 </p>
                                 <a href="#" class="btn btn-outline-light">Quiero ser orador</a>
-                                <button type="button" class="btn btn-geek" data-toggle="modal" data-target="#modalCompra">Comprar Tickets</button>
+                                <button type="button" class="btn btn-geek" data-toggle="Modal" data-target="#modalCompra">Comprar Tickets</button>
                             </div>
                         </div>
                     </div>
